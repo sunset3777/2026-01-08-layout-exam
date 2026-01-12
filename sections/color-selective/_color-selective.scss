@@ -1,0 +1,90 @@
+.color-selective{
+    background: #000;
+    max-width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.color-selective-title{
+    max-width: 1076px; 
+    margin: 48px auto 60px;
+}
+
+.color-selective-title h2{
+    color:#FFF;
+    font-size:$fs-h2;
+}
+
+.color-selective-title p{
+    font-size: $fs-h6;
+    color:#FFF;
+}
+
+//分左右兩區塊
+.color-selective-wrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4px;
+    max-width: 1076px;
+    width:100%;
+    margin: 0 auto 60px;
+}
+
+.color-selective-left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 220px;
+    gap: 4px;
+}
+
+.color-selective-right{
+    display: grid;
+    grid-auto-rows: 220px;
+    gap: 4px;
+}
+
+//左上區塊兩倍高
+.color-selective-left .is-tall{
+    grid-row: span 2;
+}
+
+//左區塊下圖
+.color-selective-left .is-wide{
+    grid-column: span 2;
+}
+
+.color-selective-photo{
+    position: relative;
+    overflow: hidden;
+}
+
+.color-selective-photo img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .color-selective-wrapper{
+    grid-template-columns: 1fr;
+  }
+
+  .color-selective-left,
+  .color-selective-right{
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+  }
+
+  .color-selective-left .is-tall{
+    grid-row: auto;
+  }
+  .color-selective-left .is-wide{
+    grid-column: auto;
+  }
+
+  .color-selective-photo img{
+    height: 240px;
+  }
+}
