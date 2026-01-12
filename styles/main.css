@@ -210,4 +210,58 @@ h3 {
     left: 30%;
     top: 70%;
   }
+}
+.new-products {
+  background: #2b2b2b;
+  padding: 60px 0px;
+}
+
+.featured-products-title {
+  display: flex;
+  font-size: 32px;
+  justify-content: center;
+  color: #FFF;
+  font-family: "Josefin Sans", "Noto Sans TC", sans-serif;
+}
+
+.featured-wrapper {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.new-product-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.new-product-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 24px;
+}
+
+.new-product-card p {
+  padding: 8px;
+  display: flex;
+  color: #FFF;
+  justify-content: center;
+  font-family: "Josefin Sans", "Noto Sans TC", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .featured-wrapper {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
