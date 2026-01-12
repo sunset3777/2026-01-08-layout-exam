@@ -1,0 +1,37 @@
+.banner {
+    background: #000;
+    width: 100%;
+    max-height: 634px;
+    position: relative;
+}
+
+.banner-img {
+    width: 100%;
+    max-height: 514px;
+    object-fit: contain;
+    left: 30%;
+    top: 50%;
+    display:block;
+}
+
+.banner hgroup{
+    position: absolute;
+    left: 50%;
+    top:50%;
+}
+
+.banner h2 {
+    color: #FFFFFF;
+}
+
+.banner p {
+    color:#FFFFFF;
+}
+
+@media (max-width:768px) {
+    .banner hgroup{
+      position: absolute;
+      left: 30%;
+      top: 70%;
+    }
+}
