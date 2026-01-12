@@ -1,0 +1,26 @@
+.form-place {
+    background: #404040;
+}
+
+.form-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.sample-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.sample-wrapper-photo{
+    position: relative;
+    overflow: hidden;
+}
+
+.sample-wrapper-photo img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
