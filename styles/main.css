@@ -173,6 +173,57 @@ h3 {
   box-sizing: border-box;
 }
 
+.header {
+  width: 100%;
+  height: 88px;
+  background-color: #FFFFFF;
+}
+
+.header-inner {
+  justify-content: space-between;
+  display: flex;
+  padding: 24px 80px 24px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header h2 {
+  color: #000;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.header-icon {
+  display: flex;
+  gap: 32px;
+}
+
+.header-magnigier img {
+  width: 24px;
+  height: 24px;
+}
+
+.header-list img {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-list {
+    display: none;
+  }
+  .header-list img {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+}
 .banner {
   background: #000;
   width: 100%;
