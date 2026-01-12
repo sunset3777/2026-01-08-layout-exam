@@ -1,0 +1,213 @@
+h1 {
+  font-size: 40px;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: "Josefin Sans", "Noto Sans TC", sans-serif;
+}
+@media (max-width: 428px) {
+  h1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: "Josefin Sans", "Noto Sans TC", sans-serif;
+}
+@media (max-width: 428px) {
+  h1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: "Josefin Sans", "Noto Sans TC", sans-serif;
+}
+@media (max-width: 428px) {
+  h1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: "Josefin Sans", "Noto Sans TC", sans-serif;
+}
+@media (max-width: 428px) {
+  h1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: "Josefin Sans", "Noto Sans TC", sans-serif;
+}
+@media (max-width: 428px) {
+  h2 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+h3 {
+  font-size: 40px;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: "Josefin Sans", "Noto Sans TC", sans-serif;
+}
+@media (max-width: 428px) {
+  h3 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+.body-1 {
+  font-size: 40px;
+  line-height: 150%;
+  font-weight: 400;
+  font-family: "Josefin Sans", "Noto Sans TC", sans-serif;
+}
+@media (max-width: 428px) {
+  .body-1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+.body-2 {
+  font-size: 40px;
+  line-height: 150%;
+  font-weight: 400;
+  font-family: "Josefin Sans", "Noto Sans TC", sans-serif;
+}
+@media (max-width: 428px) {
+  .body-2 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+.body-3 {
+  font-size: 40px;
+  line-height: 150%;
+  font-weight: 400;
+  font-family: "Josefin Sans", "Noto Sans TC", sans-serif;
+}
+@media (max-width: 428px) {
+  .body-3 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+.body-4 {
+  font-size: 40px;
+  line-height: 150%;
+  font-weight: 400;
+  font-family: "Josefin Sans", "Noto Sans TC", sans-serif;
+}
+@media (max-width: 428px) {
+  .body-4 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+.body-1 {
+  font-size: 40px;
+  line-height: 150%;
+  font-weight: 400;
+  font-family: "Josefin Sans", "Noto Sans TC", sans-serif;
+}
+@media (max-width: 428px) {
+  .body-1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+.body-1 {
+  font-size: 40px;
+  line-height: 150%;
+  font-weight: 400;
+  font-family: "Josefin Sans", "Noto Sans TC", sans-serif;
+}
+@media (max-width: 428px) {
+  .body-1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+.body-1 {
+  font-size: 40px;
+  line-height: 150%;
+  font-weight: 400;
+  font-family: "Josefin Sans", "Noto Sans TC", sans-serif;
+}
+@media (max-width: 428px) {
+  .body-1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  background: #000;
+  width: 100%;
+  max-height: 634px;
+  position: relative;
+}
+
+.banner-img {
+  width: 100%;
+  max-height: 514px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  left: 30%;
+  top: 50%;
+  display: block;
+}
+
+.banner hgroup {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.banner h2 {
+  color: #FFFFFF;
+}
+
+.banner p {
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .banner hgroup {
+    position: absolute;
+    left: 30%;
+    top: 70%;
+  }
+}/*# sourceMappingURL=main.css.map */
